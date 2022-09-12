@@ -5,7 +5,8 @@
 /**
  * main - entry point
  *
- * RETURN: always returns 0
+ *
+ * Return: always return 0
  *
  */
 int main(void)
@@ -15,7 +16,7 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	lastn = n %10;
+	lastn = n % 10;
 
 	if (lastn > 5)
 	{
