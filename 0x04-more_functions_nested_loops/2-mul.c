@@ -1,11 +1,10 @@
-#include "holberton.h"
 /**
- * mul - returns the product of its parameters
- * @a: int type number
- * @b: int type number
- * Return:0
+ * mul - multiplier
+ * @a: int to mult
+ * @b: int to mult
+ * Return: result of two
  */
 int mul(int a, int b)
 {
-return (a * b);
+	return (a * b);
 }
