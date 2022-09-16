@@ -1,19 +1,20 @@
-#include"main.h"
+#include "holberton.h"
 
 /**
- * print_numbers - print 0 - 9
- *             only using _putchar twice
- *
- * Return: Always 0 (Success)
-*/
+ * print_numbers - prints numbers
+ * Return:0
+ */
 
 void print_numbers(void)
 {
-	int num = 0;
+	char n = 0;
 
-	do {
-		_putchar(num + 48);
-		num++;
-	} while (num >= 0 && num <= 9);
+	while (n <= 9)
+	{
+		_putchar('0' + n);
+		n++;
+
+	}
 	_putchar('\n');
+
 }
