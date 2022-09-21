@@ -1,1 +1,1 @@
-All is well
+This is all about c - pointers
